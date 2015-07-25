@@ -1,0 +1,28 @@
+{
+  "name": "tree-frog",
+  "version": "1.0.0",
+  "description": "Generate custom libraries",
+  "main": "index.js",
+  "dependencies": {
+    "exec": "^0.2.0",
+    "gulp-download": "^0.0.1",
+    "gulp-unzip": "^0.1.3",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "gulp-install": "^0.4.0",
+    "map-stream": "^0.0.6",
+    "npm": "^2.13.2",
+    "stream-map": "^0.0.1",
+    "q": "^1.4.1",
+    "synchronize": "^0.9.13",
+    "streamqueue": "^1.1.0",
+    "through": "^2.3.8",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
