@@ -2,12 +2,24 @@ var gulp = require('gulp');
 var map = require('map-stream');
 var treefrog = require("./index.js")
 
-gulp.task('default', function() {
+gulp.task('bootstrap', function() {
 
   var config ={
-    "brand-primary" : "#FF6600"
+    "brand-primary" : "#40B8E1"
   }
 
-  treefrog().boostrap("3.3.5", config)
-  .pipe(gulp.dest("dist/lib/boostrap"))
+  treefrog.bootstrap("3.3.5", config)
+  .pipe(gulp.dest("output/boostrap"))
+
+});
+
+gulp.task('ionic', function() {
+
+  var config ={
+    "light" : "#40B8E1"
+  }
+
+  treefrog.ionic("1.0.0", config)
+  .pipe(gulp.dest("output/ionic"))
+
 });
