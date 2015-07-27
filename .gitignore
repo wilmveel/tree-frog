@@ -2,3 +2,5 @@
 /dest
 /dist
 /node_modules
+/output
+/target
